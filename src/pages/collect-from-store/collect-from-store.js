@@ -51,11 +51,11 @@ const CollectfromStore = () => (
 
             <div className="grdd delivery">
                 <div className="g2">
-                <div className=" box2 bxa1">
+                <div className=" box2 bxb1">
                     <img src={Image6} alt="" />
                     <p><b>On Site Delivery</b></p>
                     </div>
-                <div className=" box2 bxb1">
+                <div className=" box2 bxa1">
                     <img src={Image7} alt="" />
                     <p><b>Return</b></p>
                     </div>
