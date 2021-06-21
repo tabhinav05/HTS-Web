@@ -1,0 +1,167 @@
+.main {
+    width: 1200px;
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle0 {
+    margin: 40px 0px 0px 35px ;
+    width: 160px;
+  height: 50px;
+ 
+  border: solid 1px #44d7b6;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo0{     
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  display:flex;
+  text-align: center;
+  color: #32c5ff; 
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.Group-4{
+    
+    position: absolute;
+    width: 710px;
+    height: auto;
+
+}
+
+.login {
+    
+    position: absolute;
+    width: 274px;
+  height: 341px;
+  margin: 90px 0 41px 637px;
+  padding: 33px 53px 37px 51px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.71);
+  background-color: #ffffff;
+}
+
+.login-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.user-lb{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #858585;
+    font-size: 15px;
+}
+
+.pass-lb{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #858585;
+    font-size: 15px;
+}
+
+.username{
+    width: 272px;
+    height: 38px;
+    margin: 5px 0 5px 1px;
+    border-radius: 4px;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+}
+
+.password{
+    width: 272px;
+    height: 38px;
+    margin: 5px 0 5px 1px;
+    border-radius: 4px;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+}
+
+.checkbox{
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: solid 1px #d9d9d9;
+    background-color: #ffffff;
+}
+
+.check-lb{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+a {
+    margin-left: 50px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px; 
+    color: #1890ff;
+}
+
+.submit{
+    width: 280px;
+    height: 38px;
+    margin: 20px 0 5px 0;
+    border-radius: 4px;
+    background-color: #1890ff;
+    border: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-top: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit:hover {
+    background-color: #046dcf;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.que{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.65);
+  margin-left: 1px;
+}
+
+.sign-up-a{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px; 
+    color: #1890ff;
+    margin-left: 5px;
+}
+
+
+
+.footer{
+    margin-top: 53%;
+    height: 35px;
+    width: 1200px;
+    background-color: #4b6abd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 11px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

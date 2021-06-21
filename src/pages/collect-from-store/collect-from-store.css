@@ -1,0 +1,8 @@
+.containerAb1{
+    width: 230px;
+    height: 1185px;
+    display: flex;
+    flex-direction: column;
+    background-color: #242536;
+    position: fixed;
+}
