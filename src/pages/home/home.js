@@ -28,8 +28,8 @@ const Home = () => (
             
             <div className="all-items">
 
-            <div className="heading"><h2>Welcome to
-            <br/>Con5 Online Ordering System</h2></div>
+            <div className="heading"><p>Welcome to
+            <br/><b>Con5 Online Ordering System</b></p></div>
             <div className="grid">
                 <div className="g1">
                 <div className="box bx1 ">

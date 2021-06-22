@@ -61,19 +61,19 @@ const CollectfromStore = () => (
                     </div>
                 </div>
                 <div className="dd1">
-                    <div className="delivery-details">
+                    <div className="delivery-details1">
                     <p>Choose nearest Store to you</p>
                     </div>
                     
-               <div className="delivery-details">
+               <div className="delivery-details1">
                <select value={""}>
                 <option value="A">Wirehouse 01</option>
                 </select>
                 </div>
-                <div className="delivery-details">
+                <div className="delivery-details1">
                     <p>Delivery Instructions</p>
                 </div>
-                <div className="delivery-details">
+                <div className="delivery-details1">
                 <input className="input-text" type="text" />
                 </div>
                 </div>
@@ -124,7 +124,7 @@ const CollectfromStore = () => (
                         </div>
                 </div>
                 <div className="grdd bxx2">
-                <Link to='/' className="link"><div className="place-order"><p>Place Order</p></div></Link>
+                <Link to='/order-summaries' className="link"><div className="place-order"><p>Place Order</p></div></Link>
                     
                 
                 </div>

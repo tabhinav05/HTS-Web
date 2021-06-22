@@ -6,7 +6,9 @@ import Home from './pages/home/home'
 import ListingsPage from './pages/listings-page/listings-page';
 import Yourorder from './pages/your-order/your-order';
 import Delivery from './pages/delivery/delivery';
-import CollectfromStore from './pages/collect-from-store/collect-from-store'
+import CollectfromStore from './pages/collect-from-store/collect-from-store';
+import OrderSummaries from './pages/order-summaries/order-summaries';
+import OrderSummary from './pages/order-summary/order-summary';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Route path='/your-order' component={Yourorder} />
       <Route path='/delivery' component={Delivery} />
       <Route path='/collect-from-store' component={CollectfromStore} />
+      <Route path='/order-summaries' component={OrderSummaries} />
+      <Route path='/order-summary' component={OrderSummary} />
     </Switch>  
     </div>
     </Router>
