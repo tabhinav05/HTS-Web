@@ -284,7 +284,7 @@ const OrderSummary = () => (
 
                 <div className="buttons">
                 <btn className="edit-order"><p><b>Cancel/Edit</b></p></btn>
-                <Link to='/order-summary' className="link"><div className="confirm-order"><p>Confirm Order</p></div></Link>
+                <Link to='/' className="link"><div className="confirm-order"><p>Confirm Order</p></div></Link>
                 </div>
             
             </div>       
