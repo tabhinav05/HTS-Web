@@ -19,7 +19,7 @@ const OrderSummary = () => (
 <div className="containerAb0">
         <div className="bx">
         <div className ="rectangle1">
-            <span className="logo">LOGO</span>
+        <Link to="/" className="link logo-lk" ><span className="logo">LOGO</span></Link>
         </div>
         </div>
             
@@ -38,6 +38,116 @@ const OrderSummary = () => (
             
                
         </div>
+
+        <div className="modal">
+          <div className="overlay">
+
+            <div className="griddd">
+            <div className="grdd delivery">
+                <h3>Delivery details</h3>
+                <div className="dt-table">
+                    <div className='column'>
+                        <div className="head-row">
+                            <p>Required by Date </p>
+                        </div>
+                        <div className="down-row">
+                            <div className="tb-details" >
+                            <img src={Image1} alt="" />
+                            <p>25-10-2019</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className='column'>
+                        <div className="head-row">
+                            <p>Delivery Address</p>
+                        </div>
+                        <div className="down-row">
+                            <div className="tb-details">
+                            <img src={Image2} alt="" />
+                            <p>Southbank, Great Wilson St,<br/>Leeds LS11 5AD,<br/>United Kingdom</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className='column'>
+                        <div className="head-row">
+                            <p>Site Contact Name and Number</p>
+                        </div>
+                        <div className="down-row">
+                            <div className="tb-details">
+                            <img src={Image3} alt="" />
+                            <p>Brendan wright</p>
+                            </div>
+                            <div className="tb-details">
+                            <img src={Image4} alt="" />
+                            <p>+44 113 243 5435</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                      
+                </div>
+
+                <h3>Delivery Instructions</h3>
+                <p className="type">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore Dolore magna aliqua. Ut enim ad minim veniam, Quis nostrud exercitation ullam. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
+                
+                <h3>Delivery Details</h3>
+                <div className="dt-table">
+                    <div className="column1">
+                        <div className="head-row1">
+                            <p>No</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>1</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>2</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>3</p>
+                        </div>
+                    </div>
+                    <div className="column2">
+                        <div className="head-row1">
+                            <p>Item Name</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>Stainless Steel Medium Pressure Audco Valves, Temperature of Media : High</p>
+                        </div>    
+                        <div className="down-row1">    
+                            <p>Stainless Steel Mounted Ball Valves, Size: 25 mm</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>Stainless Steel Screwed Ends Ball Valves</p>
+                        </div>
+                    </div>
+                    <div className="column3">
+                        <div className="head-row1">
+                            <p>Quantity</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>5</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>23</p>
+                        </div>
+                        <div className="down-row1">
+                            <p>1</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="buttons">
+                <btn className="edit-order"><p><b>Cancel/Edit</b></p></btn>
+                <Link to='/' className="link"><div className="confirm-order"><p>Confirm Order</p></div></Link>
+                </div>
+            
+            </div>       
+            </div>
+
+            </div>
+            </div>
 
         <div className="containerB">
         <Header />
@@ -180,117 +290,6 @@ const OrderSummary = () => (
                 </div>
             
             </div>       
-            </div>
-
-
-            <div className="modal">
-          <div className="overlay">
-
-            <div className="griddd">
-            <div className="grdd delivery">
-                <h3>Delivery details</h3>
-                <div className="dt-table">
-                    <div className='column'>
-                        <div className="head-row">
-                            <p>Required by Date </p>
-                        </div>
-                        <div className="down-row">
-                            <div className="tb-details" >
-                            <img src={Image1} alt="" />
-                            <p>25-10-2019</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div className='column'>
-                        <div className="head-row">
-                            <p>Delivery Address</p>
-                        </div>
-                        <div className="down-row">
-                            <div className="tb-details">
-                            <img src={Image2} alt="" />
-                            <p>Southbank, Great Wilson St,<br/>Leeds LS11 5AD,<br/>United Kingdom</p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                    <div className='column'>
-                        <div className="head-row">
-                            <p>Site Contact Name and Number</p>
-                        </div>
-                        <div className="down-row">
-                            <div className="tb-details">
-                            <img src={Image3} alt="" />
-                            <p>Brendan wright</p>
-                            </div>
-                            <div className="tb-details">
-                            <img src={Image4} alt="" />
-                            <p>+44 113 243 5435</p>
-                            </div>
-                           
-                        </div>
-                    </div>
-                      
-                </div>
-
-                <h3>Delivery Instructions</h3>
-                <p className="type">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore Dolore magna aliqua. Ut enim ad minim veniam, Quis nostrud exercitation ullam. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem</p>
-                
-                <h3>Delivery Details</h3>
-                <div className="dt-table">
-                    <div className="column1">
-                        <div className="head-row1">
-                            <p>No</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>1</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>2</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>3</p>
-                        </div>
-                    </div>
-                    <div className="column2">
-                        <div className="head-row1">
-                            <p>Item Name</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>Stainless Steel Medium Pressure Audco Valves, Temperature of Media : High</p>
-                        </div>    
-                        <div className="down-row1">    
-                            <p>Stainless Steel Mounted Ball Valves, Size: 25 mm</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>Stainless Steel Screwed Ends Ball Valves</p>
-                        </div>
-                    </div>
-                    <div className="column3">
-                        <div className="head-row1">
-                            <p>Quantity</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>5</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>23</p>
-                        </div>
-                        <div className="down-row1">
-                            <p>1</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="buttons">
-                <btn className="edit-order"><p><b>Cancel/Edit</b></p></btn>
-                <Link to='/' className="link"><div className="confirm-order"><p>Confirm Order</p></div></Link>
-                </div>
-            
-            </div>       
-            </div>
-
-            </div>
             </div>
 
 

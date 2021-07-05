@@ -11,7 +11,7 @@ const Nav = () => (
                 <li><a><div>Brandon</div></a></li>
                 <li><a><div>Wright</div></a></li>
                 <li><a><div className="br"><p><b>BR</b></p></div></a></li>
-                </ul>
+    </ul>
 )
 
 export default Nav;

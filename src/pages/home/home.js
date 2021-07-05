@@ -4,7 +4,6 @@ import Nav from "../../components/nav/nav"
 import "./home.css";
 
 import Image from "../../assets/group.png";
-import Image2 from "../../assets/bell.png";
 import Image3 from "../../assets/packing-list.png";
 import Image4 from "../../assets/trolley.png";
 import Image5 from "../../assets/boxes.png";
@@ -17,12 +16,12 @@ const Home = () => (
     
         <div className="container1">
         <div className ="rectangle">
-            <span className="logo">LOGO</span>
+        <Link to="/" className="link logo-lk" ><span className="logo">LOGO</span></Link>
         </div>    
         <img src={Image}  className="group" alt=""/>
         </div>
         <div className="container2">
-            <div className="nav">
+            <div className="nav1">
             <Nav />
             </div>
             
@@ -37,7 +36,7 @@ const Home = () => (
                     <p>PLACE AN ORDER</p>
                     </div>
                 <div className=" box bx2 ">
-                    <img src={Image4} alt="" />
+                    <img src={Image4} alt="" />   
                     <p>MY ORDER</p>    
                     </div>
                 <div className=" box bx3">

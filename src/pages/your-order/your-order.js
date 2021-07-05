@@ -17,7 +17,7 @@ const Yourorder = () => (
 <div className="containerAa">
         <div className="bx">
         <div className ="rectangle1">
-            <span className="logo">LOGO</span>
+            <Link to="/" className="link logo-lk" ><span className="logo">LOGO</span></Link>
         </div>
         </div>
             
@@ -71,10 +71,11 @@ const Yourorder = () => (
                     <p>Order Confirmation</p>
                 </div>
             </div>
+            
+            <div className="griddd">
             <div className="heading1">
                 <h3>Your Order</h3>
             </div>
-            <div className="griddd">
                 
                 <div className="grdd bxx2">
                 <div className="img-fr">

@@ -6,15 +6,29 @@
 
 .containerA1{
   width: 230px;
-  height: 1182px;
+  height: 1168px;
   display: flex;
   flex-direction: column;
   background-color: #242536;
-  position: fixed;
+  position:fixed;
+  transition: 350ms;
 }
 
+.containerA1.active {
+  width: 80px;
+  transition: 350ms;
+  
+}
+
+.logo-lk{
+  justify-self: center;
+  align-self: center;
+  margin-right: 45px;
+}
+
+
 .rectangle1 {
-margin: 40px 0px 50px 35px ;
+margin: 40px 0 50px 0 ;
 width: 160px;
 height: 50px;
 border: solid 1px #44d7b6;
@@ -23,7 +37,19 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 background-color: #242536;
+transition: 350ms;
+}
 
+.rectangle1.active{
+  width: 80px;
+ 
+  margin: 40px 0 50px 0;
+  border: #242536;
+  transition: 350ms;
+}
+
+.rectangle1.active .logo{
+  font-size: 20px;
 }
 
 .logo{     
@@ -32,7 +58,8 @@ font-size: 23px;
 font-weight: 600;
 display:flex;
 text-align: center;
-color: #32c5ff; 
+color: #32c5ff;
+
 }
 
 .bx{
@@ -43,7 +70,26 @@ color: #32c5ff;
   width: 230px;
   height: 150px;
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.2);
+  transition: 350ms;
 }
+
+.bx.active{
+  width: 80px;
+  transition: 350ms; 
+}
+
+.bx.active p{
+  color: transparent;
+  transition: 0ms;
+  position: absolute;
+}
+.bx.active img{
+  position: relative;
+  transition: 350ms;
+  width: 40px;
+  height: 40px;
+}
+
 
 .bx img{
   width: 60px;
@@ -51,6 +97,7 @@ height: 60px;
 object-fit: contain;
 justify-self: center;
 align-self: center;
+transition: 350ms;
 }
 
 .bx p{
@@ -59,6 +106,7 @@ align-self: center;
   font-size: 12px;
   justify-self: center;
   align-self: center;
+  transition: 350ms;
 }
 
 
@@ -71,33 +119,107 @@ align-self: center;
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin-left: 194px;
+    transition: 350ms;
+}
+
+.containerB.active{
+  margin-left: 80px;
+  transition: 350ms; 
+}
+
+.nav2{
+  display: flex;
+  height: 92px;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+  margin-right: 20px;
+  transition: 350ms;
+  
+}
+
+.nav2.active{
+  margin-right: 40px;
+  transition: 350ms;
+ 
+}
+
+.details{
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  justify-self: flex-start;
+  align-self: center;
+  margin-right: 90px;
+}
+
+.details .img1{
+  margin: 20px;
+  width: 35px;
+  height: 33px;
+  transition: 350ms;
+  cursor:pointer;
+}
+
+.nav2.active .details .img1{
+  transform: rotate(360deg);
+  transition: 350ms;
+  }
+
+.details .img2 {
+  margin: 16px;
+  width: 26px;
+  height: 40px;
 }
 
 
+
+.details p{
+  align-self: center;
+  text-align: start; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 13px;
+  color: #444242;
+  
+}
 
 
 .containerB1{
   display: flex;
   height: 68px;
   align-items: center;
-  box-shadow: 0 -2px 2px  rgba(0, 0, 0, 0.25);
+  box-shadow: 0 -2px 0px  rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 36px;
 }
+
+.containerB1.active{
+  margin-left: 0px;
+  
+}
+
+
+
 
 .containerB1 p{
   justify-self: flex-start;
   width: 43px;
   height: 20px;
-  margin-left: 270px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   color: #333333;
+  position: relative;
 
 }
 
 .containerB1 img{
   width: 17px;
   height: 20px;
-  margin: 10px 75px 0 60px;
+  margin: 10px 65px 0 50px;
   object-fit: contain;
  margin-bottom: 8px;
 }
@@ -115,30 +237,32 @@ align-self: center;
   height: 45px;
   background-color: rgb(230, 230, 230);
   margin-left: 40px;
-  margin-right: 120px;
+  margin-right: 40px;
 }
 
+
 .search-box{
-  width: 435px;
+  width: 455px;
   height: 33px;
   margin: 5px 10px 5px 10px;
   padding: 5px 7px 6px 18px;
   border-radius: 30px;
   border: solid 0.5px rgba(146, 146, 146, 0.71);
+  position: relative;
 }
 
 .sr-oval{
+  margin-left: 557px;
 position: absolute;
-margin-bottom: 25px;
 width: 19px;
 height: 19px;
 padding: 7px 7px 8px 8px;
 background-color: #e5e5e5;
-margin: 0 0 0 975px ;
 border-radius: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
 
@@ -149,9 +273,15 @@ align-items: center;
   padding-left: 15px;
 }
 
+.shp-btn{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+}
+
 .shp-crt{
-  justify-self: flex-end;
-  position: absolute;
+  
   width: 30px;
   height: 35px;
   border-radius: 60px;
@@ -160,8 +290,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1120px;
-
+  position: relative;
 }
 
 
@@ -180,24 +309,24 @@ align-items: center;
 .shp-crt1{
   width: 6px;
   height: 13px;
-  margin: 0 0 35px 35px;
-  padding: 1px 5px 2px;
-  border-radius: 8px;
+  padding: 3px 7px 3px 7px;
+  border-radius: 15px;
   background-color: #84bb10;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1156px;
+  margin-left: 38px;
+  margin-top: -4px;
 }
 
 .shp-crt1 p{
   position: absolute;
   justify-self: center;
-  margin-right: 232px;
+  align-self: center;
   font-size: 12px;
-  margin-top: 19px;
-  color: white;
+  margin-left: 37px;
+  margin-top: 20px;
 }
 
 .containerB2{
@@ -207,10 +336,6 @@ align-items: center;
   background-color: rgb(240, 243, 247);
 }
 
-.heading1{
-  margin-left: 270px;
-
-}
 
 .heading1 h3{
   font-size: 22px;
@@ -227,10 +352,20 @@ align-items: center;
 .griddd{
   display: flex;
   flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  margin-left: 35px;
 }
 
+.griddd.active{
+  margin-left: 10px;
+  transition: 350ms;
+}
+
+
+
 .grdd{
-  margin: 4px 0 0 270px;
+  margin: 4px 0 0 0;
   width: 835px;
   height: 90px;
   padding: 18px 41px 18px 15px;
@@ -281,6 +416,11 @@ align-items: center;
   display: flex;
   align-items:center;
   justify-content: center;
+  cursor:pointer;
+}
+
+.btn-add:hover{
+  background-color: #1e7acf;
 }
 
 .btn-add p{
@@ -288,6 +428,7 @@ align-items: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   text-align: center;
+  cursor:pointer;
 }
 
 .select {
@@ -299,20 +440,31 @@ align-items: center;
 .sl-box{
   width: 30px;
   height:32px;
-  border: solid 2px #d8d7d7;
+  border: solid 1.5px #d8d7d7;
+  border-radius: 2.5px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+
+.sl-box:hover{
+  background-color: rgb(229, 229, 235);
+}
+
+.sll-box{
+  width: 30px;
+  height:32px;
+  border: solid 1.5px #d8d7d7;
   border-radius: 2.5px;
   display: flex;
   align-items:center;
   justify-content:center;
 }
 
-.sl-box p{
-  color:rgb(49, 49, 49)
-}
-
 
 .footrr1{
-  margin-top: 8%;
+  margin-top: 80px;
   height: 35px;
   background-color: #4b6abd;
   display: flex;
@@ -323,7 +475,7 @@ align-items: center;
   color: white;
   font-size: 11px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin-left: 200px;
+
 }
 
 

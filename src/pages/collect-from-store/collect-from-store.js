@@ -19,7 +19,7 @@ const CollectfromStore = () => (
 <div className="containerAb1">
         <div className="bx">
         <div className ="rectangle1">
-            <span className="logo">LOGO</span>
+        <Link to="/" className="link logo-lk" ><span className="logo">LOGO</span></Link>
         </div>
         </div>
             
@@ -44,10 +44,11 @@ const CollectfromStore = () => (
         
         <div className="containerB2">
             
+            
+            <div className="griddd">
             <div className="heading1">
                 <h3>Delivery Channel and Address</h3>
             </div>
-            <div className="griddd">
 
             <div className="grdd delivery">
                 <div className="g2">

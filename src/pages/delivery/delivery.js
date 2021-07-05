@@ -19,7 +19,7 @@ const Delivery = () => (
 <div className="containerAb">
         <div className="bx">
         <div className ="rectangle1">
-            <span className="logo">LOGO</span>
+        <Link to="/" className="link logo-lk" ><span className="logo">LOGO</span></Link>
         </div>
         </div>
             
@@ -73,10 +73,11 @@ const Delivery = () => (
                     <p>Order Confirmation</p>
                 </div>
             </div>
+            
+            <div className="griddd">
             <div className="heading1">
                 <h3>Delivery Channel and Address</h3>
             </div>
-            <div className="griddd">
 
             <div className="grdd delivery">
                 <div className="g2">

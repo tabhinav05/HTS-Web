@@ -19,7 +19,7 @@ const OrderSummaries = () => (
 <div className="containerAb0">
         <div className="bx">
         <div className ="rectangle1">
-            <span className="logo">LOGO</span>
+        <Link to="/" className="link logo-lk" ><span className="logo">LOGO</span></Link>
         </div>
         </div>
             
@@ -73,10 +73,14 @@ const OrderSummaries = () => (
                     <p>Order Confirmation</p>
                 </div>
             </div>
+           
+
+            
+            <div className="griddd">
             <div className="heading1">
                 <h3>Order Summaries</h3>
             </div>
-            <div className="griddd">
+
             <div className="grdd delivery">
                 <h3>Delivery details</h3>
                 <div className="dt-table">
@@ -174,7 +178,7 @@ const OrderSummaries = () => (
 
                 <div className="buttons">
                 <btn className="edit-order"><p><b>Cancel/Edit</b></p></btn>
-                <Link to='/order-summary' className="link"><div className="confirm-order"><p>Confirm Order</p></div></Link>
+                <Link to='/' className="link"><div className="confirm-order"><p>Confirm Order</p></div></Link>
                 </div>
             
             </div>       
